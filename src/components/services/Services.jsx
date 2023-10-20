@@ -60,50 +60,31 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          I engage in coding new pages and website elements with utmost dedication, ensuring their seamless integration into projects. I meticulously test these new website elements across multiple search engines and devices, leaving no room for discrepancies, and ensuring a flawless user experience across various platforms. By upholding the highest standards of quality and functionality
           </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Backend Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          I meticulously handle databases, implementing robust back-end logic and well-designed APIs to facilitate seamless data exchange between the front-end and back-end. My expertise in crafting scalable architecture ensures the website's adaptability to evolving requirements and growth. Additionally, I manage and maintain servers, prioritizing efficiency and security to deliver a seamless user experience.
           </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>UI/UX Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          I create user personas with comprehensive demographic data, preferences, habits, and connections to trends. Understanding the target audience. My goal is to develop sleek, modern designs that offer personalized recommendations, easy navigation, and social integration for meaningful interactions. Staying updated with the latest trends ensures the interfaces I craft are relevant and appealing to users..
           </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
       </motion.div>
     </motion.div>

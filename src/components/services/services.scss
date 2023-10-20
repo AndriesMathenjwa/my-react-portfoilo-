@@ -24,12 +24,20 @@
       font-size: 20px;
       color: gray;
       text-align: right;
+
+      @media (max-width: 1067px) {
+        font-size: 15px;
+       }
     }
 
     hr {
       width: 500px;
       border: none;
       border-top: 0.5px solid gray;
+
+      @media (max-width: 1067px) {
+        width: 400px;
+       }
 
       @include mobile {
         width: 300px;
@@ -63,6 +71,11 @@
         border-radius: 50px;
         object-fit: cover;
 
+        @media (max-width: 1067px) {
+          width: 200px;
+          height: 60px;
+         }
+
         @include mobile {
           width: 200px;
           height: 50px;
@@ -73,6 +86,10 @@
         font-size: 70px;
         font-weight: 100;
 
+        @media (max-width: 1067px) {
+          font-size: 50px;
+         }
+
         @include mobile {
           font-size: 36px;
         }
@@ -80,12 +97,18 @@
 
       button {
         width: 270px;
-        height: 70px;
+        height: 60px;
         border-radius: 50px;
         background-color: orange;
         border: none;
-        font-size: 24px;
+        font-size: 15px;
         cursor: pointer;
+
+        @media (max-width: 1067px) {
+          width: 150px;
+          height: 55px;
+          font-size: 15px;
+         }
 
         @include mobile {
           font-size: 16px;
@@ -101,6 +124,10 @@
     max-width: 1010px;
     margin: auto;
 
+    @media (max-width: 1067px) {
+      max-width: 800px;
+     }
+
     @include mobile {
       flex-direction: column;
       width: 100%;
@@ -113,6 +140,10 @@
       flex-direction: column;
       justify-content: space-between;
 
+      @media (max-width: 1067px) {
+        // padding: 40px;
+       }
+
       @include mobile {
         border: none;
         align-items: center;
@@ -121,6 +152,9 @@
       }
 
       p {
+        @media (max-width: 1067px) {
+          font-size: 12px;
+         }
         @include mobile {
           display: none;
         }

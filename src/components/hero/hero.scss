@@ -39,6 +39,10 @@
         font-size: 30px;
         color: rebeccapurple;
         letter-spacing: 10px;
+
+        @media (max-width: 1067px) {
+          font-size: 23px;
+         }
       }
 
       h1 {
