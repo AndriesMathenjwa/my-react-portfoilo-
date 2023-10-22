@@ -47,6 +47,18 @@
         @media (max-width: 1067px) {
           font-size: 23px;
          }
+
+         @include mobile {
+          font-size: 18px;
+        }
+
+        @media (max-width: 595px) {
+          font-size: 14px;
+        }
+
+        @media (max-width: 4740px) {
+          font-size: 12px;
+        }
       }
 
       h1 {
@@ -58,6 +70,14 @@
 
         @include mobile {
           font-size: 36px;
+        }
+
+        @media (max-width: 595px) {
+          font-size: 25px;
+        }
+
+        @media (max-width: 4740px) {
+          font-size: 22px;
         }
       }
 
@@ -76,6 +96,14 @@
 
       img {
         width: 50px;
+
+        @include mobile {
+          width: 40px;
+        }
+
+        @media (max-width: 595px) {
+          display: none;
+        }
       }
     }
   }
@@ -96,16 +124,32 @@
      }
 
     @include mobile {
-      height: 50%;
-      width: 100%;
-      top: unset;
-      bottom: 0;
+      width: 55%;
+    }
+
+    @include mobile{
+    // position: absolute;
+    // bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     }
 
     img{
       width: 100%;
       height: 100%;
       object-fit: cover;
+
+      @include mobile {
+        margin-top: 250px;
+        object-fit:fill;
+        border-radius: 50px;
+      }
+
+      @media (max-width: 595px) {
+        margin-top: 230px;
+      }
+
+      
     }
   }
 

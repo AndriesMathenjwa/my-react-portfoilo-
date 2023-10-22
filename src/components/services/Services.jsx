@@ -77,7 +77,7 @@ const Services = () => {
           {/* <button>Go</button> */}
         </motion.div>
         <motion.div
-          className="box"
+          className="box dis"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>UI/UX Design</h2>

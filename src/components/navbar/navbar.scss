@@ -38,6 +38,15 @@
       display: flex;
       gap: 20px;
 
+      @media (max-width: 890px) {
+        padding: 40px;
+       }
+
+      @include mobile {
+        gap: 10px;
+        padding-right: 30px;
+      }
+
       img {
         width: 18px;
         height: 18px;
