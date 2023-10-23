@@ -64,7 +64,7 @@ const Contact = () => {
           <h2>Address</h2>
           <span>Abrey Matlala Rd Soshanguve-L Pretoria</span>
         </motion.div>
-        <motion.div className="item" variants={variants}>
+        <motion.div className="item last" variants={variants}>
           <h2>Phone</h2>
           <span>0729493400</span>
         </motion.div>
@@ -76,7 +76,7 @@ const Contact = () => {
           whileInView={{ opacity: 0 }}
           transition={{ delay: 3, duration: 1 }}
         >
-          <svg width="300px" height="300px" viewBox="0 0 32.666 32.666">
+          <svg width="200px" height="200px" viewBox="0 0 32.666 32.666">
             <motion.path
               strokeWidth={0.2}
               fill="none"
