@@ -96,7 +96,28 @@ button {
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1280px) {
+    .profile-options .btn {
+        margin-top: 50px;
+        width: 250px;
+        padding: 25px 0;
+        font-size: 20px;
+        border-radius: 40px;
+      }
+
+      .profile-details-role h1 {
+        font-size: 55px;
+      }
+
+      .profile-role {
+        font-size: 25px;
+      }
+}
+
+@media screen and (max-width: 1024px) {
+    .profile-container {
+        /* padding-top: 400px; */
+    }
   .profile-picture {
     margin: 0 0px 0 80px;
   }
@@ -113,6 +134,22 @@ button {
     padding: 11px 0;
     z-index: 700;
   }
+
+
+  .profile-options .btn {
+    margin-top: 50px;
+    width: 200px;
+    padding: 20px 0;
+    font-size: 20px;
+    border-radius: 40px;
+  }
+  .profile-details-role h1 {
+    font-size: 40px;
+  }
+
+  .profile-role {
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width: 910px) {
@@ -123,27 +160,27 @@ button {
   }
 }
 
-@media screen and (max-width: 810px) {
-  .profile-picture {
+@media screen and (max-width: 820px) {
+  /* .profile-picture {
     margin: 0 !important;
-  }
+  } */
+
+  .profile-container {
+    padding-top: 400px;
+}
   .profile-parent {
     flex-direction: column-reverse;
     margin: 40px 0 0 0;
   }
 
   .profile-details-role h1 {
-    font-size: 25px;
-  }
-
-  .profile-details-role .primary-text {
-    font-size: 10px !important;
+    font-size: 45px;
   }
 
   .profile-options {
     display: flex;
     /* justify-content: space-between; */
-    margin-left: 50px;
+    margin-left: 90px;
     margin-right: 50px;
   }
 
@@ -154,10 +191,20 @@ button {
 
   button {
     margin-right: 50px;
+    /* margin-left: 50px; */
   }
 
   .profile-options .highlighted-btn {
     margin: 0;
+  }
+  .profile-role{
+    font-size: 20px;
+}
+.profile-options .btn {
+    margin-top: 30px;
+    width: 200px;
+    padding: 20px 0;
+    font-size: 20px;
   }
 
   .profile-options,
@@ -189,6 +236,13 @@ button {
     .profile-container {
         padding-top: 250px;
     }
+
+    .profile-options {
+        display: flex;
+        /* justify-content: space-between; */
+        margin-left: 50px;
+        margin-right: 50px;
+      }
 
     
     .profile-role{
@@ -256,12 +310,6 @@ button {
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 360px){
-    .profile-role{
-        font-size: 14px;
-    }
-}
-
 @media screen and (max-width: 375px) {
 
     .profile-container {
@@ -276,4 +324,14 @@ button {
   .profile-details {
     width: 90%;
   }
+}
+
+@media screen and (max-width: 360px){
+    
+    .profile-container {
+        padding-top: 300px;
+    }
+    .profile-role{
+        font-size: 14px;
+    }
 }
